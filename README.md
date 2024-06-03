@@ -1,30 +1,34 @@
 # DIP_Webpage
-## Intro
-This is the simple interface to run some DIP or CV algorithms on  website, developed by python.
 
-I deploy on `Pythonanywhere`, `PythonAnywhere` is a cloud-based Python development and hosting platform. It allows you to write, run, and host Python applications online without local setup. With support for **Flask**, Django, and other frameworks.
+## Introduction
+This is a simple interface for running Digital Image Processing (DIP) or Computer Vision (CV) algorithms on a website, developed using Python.
 
-PythonAnywhere simplifies web development. It offers both free and paid plans, making it suitable for projects of all sizes.
+I deployed it on [PythonAnywhere](https://www.pythonanywhere.com/), a cloud-based Python development and hosting platform. PythonAnywhere allows you to write, run, and host Python applications online without local setup. It supports frameworks like Flask, Django, and others, simplifying web development. With both free and paid plans, it's suitable for projects of all sizes.
 
-This project uses `Flask` as a framework to develope, combine with back-end and front-end website development, the website runs on *https://dseclusioner.pythonanywhere.com/*
+This project uses Flask for both back-end and front-end website development. You can access the website at [https://dseclusioner.pythonanywhere.com/](https://dseclusioner.pythonanywhere.com/).
 
 ## Tools
-| Library's name | Version       |
-| -------------- | ------------- |
-| flask          | 2.1.2         |
-| numpy          | 1.25.2        |
-| cv2            | 4.5.4.60      |
+| Library       | Version   |
+| ------------- | --------- |
+| Flask         | 2.1.2     |
+| NumPy         | 1.25.2    |
+| OpenCV (cv2)  | 4.5.4.60  |
 
 Python version: 3.10.5
 
-## Run codes
-To test the code at local, clone this repositories and run `app.py`
+## Running the Code
+To test the code locally, clone this repository and run `app.py`:
 
-``` bash
+```bash
 python app.py
 ```
 
-And you can run the `index.html` file on `http://127.0.0.1:5000` in your computer.
+You can then access the index.html file at http://127.0.0.1:5000 in your computer's web browser.
 
 
+I made some improvements, including:
 
+- Made the introduction more concise and improved readability.
+- Linked the term "PythonAnywhere" to its website.
+- Reformatted the tools table for better readability.
+- Clarified instructions for running the code locally.
